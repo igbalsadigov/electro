@@ -1,0 +1,93 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.fistHeader {
+    background-color: #1E1F29;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+
+}
+
+.faq {
+    display: flex;
+
+    width: 60%;
+    justify-content: space-between;
+
+    li {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.firstIcons {
+    color: #A80725;
+    font-size: 12px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.textTop {
+    text-decoration: none;
+}
+
+.firstHeaderColorFont {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: bold;
+
+
+}
+
+.firstHeaderColorFont:hover {
+    color: #AF1829;
+    transition: 0.3s;
+
+}
+
+.secondHeader {
+    display: flex;
+    background-color: #15161D;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    border-bottom: 3px solid #D10024;
+}
+
+.headerCotainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+
+
+    .cart {
+        display: flex;
+
+        text-align: center;
+        gap: 35px;
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+        }
+
+        .cartIcons {
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+
+}
